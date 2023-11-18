@@ -57,7 +57,7 @@ body {
   }
   select {
     padding: 0px 10px;
-    width: 90%;
+    width: 95%;
     height: 40%;
     border-radius: 25px;
     background: #2bc0e4; /* fallback for old browsers */
@@ -74,31 +74,11 @@ body {
     font-family: cursive;
     font-weight: bolder;
   }
-  /* input[type="text"] {
-    padding: 10px;
-    width: 90%;
-    height: 40%;
-    border: none;
-    outline: none;
-    border-radius: 25px;
-    background: #2bc0e4;
-    background: -webkit-linear-gradient(
-      to right,
-      #eaecc6,
-      #2bc0e4
-    ); 
-    background: linear-gradient(
-      to right,
-      #eaecc6,
-      #2bc0e4
-    ); 
-    font-family: cursive;
-    font-weight: bolder;
-  } */
+  
   #accept,#send{
     padding: 10px;
-    width: 35%;
-    height: 5%;
+    width: 39%;
+    height: 15%;
     border: none;
     outline: none;
     border-radius: 25px;
@@ -115,6 +95,7 @@ body {
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: cursive;
     font-weight: bolder;
+     font-size: larger;
   }
   input[type="button"] {
     width: 50%;
@@ -147,19 +128,6 @@ body {
     /* background: red; */
     margin: auto;
   }
-  @media screen and (max-width: 500px) {
-    .container {
-      width: 80%;
-      margin: auto;
-      height: 85vh;
-    }
-    h1 {
-      font-size: 40px;
-    }
-    select {
-      width: 90%;
-    }
-  }
   .form2 {
     height: 90px;
     width: 80%;
@@ -179,3 +147,17 @@ body {
     margin-top: 10px;
     width: 40px;
   }
+  @media screen and (max-width: 500px) {
+    .container {
+      width: 80%;
+      margin: auto;
+      height: 85vh;
+    }
+    h1 {
+      font-size: 40px;
+    }
+    select {
+      width: 90%;
+    }
+  }
+  
